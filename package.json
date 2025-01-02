@@ -1,0 +1,21 @@
+{
+  "name": "tanki-discord-rpc",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "bin": "index.js",
+  "keywords": ["Discord", "RPC", "Tanki Online"],
+  "author": "Zahin",
+  "license": "MIT",
+  "type": "module",
+  "description": "Makes a Rich Presence for Tanki Online (website) in Discord",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "discord-rpc": "^4.0.1",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2"
+  }
+}
