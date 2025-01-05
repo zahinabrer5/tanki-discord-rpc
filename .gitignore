@@ -1,4 +1,5 @@
 .env
+start_discord.sh
 
 # Node
 node_modules
